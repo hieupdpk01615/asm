@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Đăng Nhập</title>
+	<link rel="stylesheet" type="text/css" href="css/Login.css">
+	<script src="js/SignIn.js"></script>
+</head>
+
+<body>
+	<header>
+		<div id="k_login">
+			<div id="login">
+				<div class="dn"><a href="#">Đăng nhập</a></div>
+				<div class="dk"><a href="Dangky.html">Đăng ký</a></div>
+			</div>
+		</div>
+
+		<div id="k_thongtin">
+			<div id="k_hotro">
+				<div class="hotro">
+					<div class="logo"><img src="icon/clock.png"></div>
+					<div class="chu">
+						<li class="a">Thời gian làm việc</li>
+						<li class="b">7.am - 11.pm</li>
+					</div>
+				</div>
+				<div class="hotro">
+					<div class="logo"><img src="icon/car.png"></div>
+					<div class="chu">
+						<li class="a" style="padding-left: 15px">Miễn phí vận chuyển</li>
+						<li class="b" style="padding-left: 15px">Đơn hàng trên 200k</li>
+					</div>
+				</div>
+				<div class="hotro">
+					<div class="logo"><img src="icon/money.png"></div>
+					<div class="chu">
+						<li class="a">Giá cả phải chăng</li>
+						<li class="b">Mua bán tiết kiệm</li>
+					</div>
+				</div>
+				<div class="hotro">
+					<div class="logo"><img src="icon/telephone.png"></div>
+					<div class="chu">
+						<li class="a"> (84-8) 3820 7153</li>
+						<li class="b">Hỗ trợ khách hàng trực tuyến</li>
+					</div>
+				</div>
+			</div>
+			<!-- ------------------------------------------------------------ -->
+			<div id="k_modau">
+				<div class="k_logo"><a href="#"><img src="icon/bieutuong.png"></a></div>
+				<div class="timkiem">
+					<div class="k_timkiem">
+						<input type="text" placeholder="Tìm kiếm sản phẩm...">
+						<input type="submit" value="Tim">
+					</div>
+				</div>
+				<div class="k_soluongSP">
+					<div class="soluongSP">0 sản phẩm</div>
+					<div class="logo_soluong"><a href="#"><img src="icon/sanpham.png" alt=""></a></div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="modau">
+		<div id="k_menu">
+			<div class="c">
+				<ul>
+					<li><a href="index.html">Trang chủ</a></li>
+					<li><a href="gioithieu.html">Giới thiệu</a></li>
+					<li><a href="sanpham.html">Sản phẩm</a></li>
+					<li><a href="#">Hướng dẫn</a></li>
+					<li><a href="lienhe.html">Liên hệ</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- ------------------------------------------------------------------------------- -->
+	<section>
+		<div id="khung">
+			<div id="lienket">
+				<a>Trang chủ > Đăng Nhập</a>
+			</div>
+			<div id="k_noidung">
+				<h3>Đăng nhập tài khoản</h3>
+				<p>Bằng cách đăng nhập tài khoản bạn có thể mua sắm nhanh hơn, cập nhật tình trạng đơn hàng, theo dõi những đơn hàng đã đặt và đặc biệt là sẽ được hưởng nhiều chương trình ưu đãi!
+				</p>
+				
+				<div class="container">
+					<form id="formlogin">
+						<div>
+							<label>Email:</label><br>
+							<input type="text" value="" id="Email" name="Email" placeholder="Nhập Email...">
+						</div>			
+						<div>
+							<label for="Password">Password:</label><br>
+							<input type="password" value="" id="Password" name="Password" placeholder="Nhập Password...">
+						</div>						
+						<div id="submit"><input type="button" value="Đăng nhập" onclick="login()"></div>
+						<div id="errLogin"></div>
+					</form>
+					
+					<div id="accountname"></div>
+				</div>
+				
+				<div id="k_ok">
+					<span class="ok">Chưa có tài khoản</span><span class="ok1">Quên mật khẩu?</span>
+				</div>
+	</section>
+	<footer>
+		<div id="p_cuoi">
+			<div class="trai">
+				<div class="fashon">FASHON</div>
+				<div class="k_chu">
+					<li>Giới thiệu bookbuy.vn</li>
+					<li>Đặt hàng theo yêu cầu</li>
+					<li>BookBuy trên Facebook</li>
+					<li>iBookStop.vn</li>
+					<li>Bao plastic cho sách</li>
+				</div>
+			</div>
+			<div class="phai">
+				<div class="lienhe">LIÊN HỆ</div>
+				<div class="ds_lienhe">
+					<li>Địa chỉ: 147 Pasteur, Phường 6, Quận 3, TP.HCM</li>
+					<li>Điện thoại: (84-8) 3820 7153</li>
+					<li>Email: info@bookbuy.vn</li>
+					<li>Fax : (84-8) 3820 9525</li>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+	<script>
+		function login() {
+			function getInputValue(selector) {
+				var inputElement = document.querySelector(selector); // tạo 1 biến để trả về phần tử đầu tiên được tìm thấy
+				return inputElement.value;
+			}
+			var Email = document.getElementById("Email").value;
+			var Password = document.getElementById("Password").value;
+			var User = [];
+			var User = JSON.parse(localStorage.getItem('User'));
+			for(var i = 0; i < User.length; i++){
+				if (Email == User[i].Email && Password == User[i].Password) {
+				document.getElementById("formlogin").style.display = "none";
+				document.getElementById("k_ok").style.display = "none";
+				document.getElementById("accountname").innerHTML = "Chào mừng " + User[i].FullName + " đến với Fashion";
+				document.getElementById("errLogin").innerHTML = "";			
+				} else {
+					document.getElementById("errLogin").innerHTML = "Email hoặc mật khẩu của bạn không đúng";		
+				}
+			}
+
+		}
+	</script>
+</html>

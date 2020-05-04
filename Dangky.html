@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Đăng ký</title>
+	<link rel="stylesheet" type="text/css" href="css/style_dangky.css">
+	<script src="js/SignIn.js"></script>
+</head>
+
+<body>
+	<header>
+		<div id="k_login">
+			<div id="login">
+				<div class="dn"><a href="Login.html">Đăng nhập</a></div>
+				<div class="dk"><a href="Dangky.html">Đăng ký</a></div>
+			</div>
+		</div>
+
+		<div id="k_thongtin">
+			<div id="k_hotro">
+				<div class="hotro">
+					<div class="logo"><img src="icon/clock.png"></div>
+					<div class="chu">
+						<li class="a">Thời gian làm việc</li>
+						<li class="b">7.am - 11.pm</li>
+					</div>
+				</div>
+				<div class="hotro">
+					<div class="logo"><img src="icon/car.png"></div>
+					<div class="chu">
+						<li class="a" style="padding-left: 15px">Miễn phí vận chuyển</li>
+						<li class="b" style="padding-left: 15px">Đơn hàng trên 200k</li>
+					</div>
+				</div>
+				<div class="hotro">
+					<div class="logo"><img src="icon/money.png"></div>
+					<div class="chu">
+						<li class="a">Giá cả phải chăng</li>
+						<li class="b">Mua bán tiết kiệm</li>
+					</div>
+				</div>
+				<div class="hotro">
+					<div class="logo"><img src="icon/telephone.png"></div>
+					<div class="chu">
+						<li class="a"> (84-8) 3820 7153</li>
+						<li class="b">Hỗ trợ khách hàng trực tuyến</li>
+					</div>
+				</div>
+			</div>
+			<!-- ------------------------------------------------------------ -->
+			<div id="k_modau">
+				<div class="k_logo"><a href="#"><img src="icon/bieutuong.png"></a></div>
+				<div class="timkiem">
+					<div class="k_timkiem">
+						<input type="text" placeholder="Tìm kiếm sản phẩm...">
+						<input type="submit" value="Tim">
+					</div>
+				</div>
+				<div class="k_soluongSP">
+					<div class="soluongSP">0 sản phẩm</div>
+					<div class="logo_soluong"><a href="#"><img src="icon/sanpham.png" alt=""></a></div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="modau">
+		<div id="k_menu">
+			<div class="c">
+				<ul>
+					<li><a href="index.html">Trang chủ</a></li>
+					<li><a href="gioithieu.html">Giới thiệu</a></li>
+					<li><a href="sanpham.html">Sản phẩm</a></li>
+					<li><a href="#">Hướng dẫn</a></li>
+					<li><a href="lienhe.html">Liên hệ</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- ------------------------------------------------------------------------------- -->
+	<section>
+		<div id="khung">
+			<div id="lienket">
+				<a>Trang chủ > Đăng ký</a>
+			</div>
+			<div id="k_noidung">
+				<h3>Đăng ký tài khoản</h3>
+				<p>Nếu bạn đã đăng ký tài khoản, vui lòng đăng nhập <a href="Dangky.html">Tại Đây</a><br>
+					<a>Lưu ý </a>các dấu sao <a>màu đỏ</a> không được bỏ trống và phải điền đầy đủ, chính xác.
+				</p>
+				<h4>Thông tin cá nhân</h4>
+				<div class="ttcanhan">
+					<div class="k_ttcanhan">
+						<label for="FullName"><a>*</a>Họ và tên:</label>
+						<input type="text" value="" id="FullName" name="FullName" placeholder="Nhập Họ và tên...">
+						<span id="errFullName" style="color:red"></span>
+					</div>
+					<div class="k_ttcanhan">
+						<label for="FullName"><a>*</a>Số điện thoại:</label>
+						<input type="text" value="" id="Telephone" name="Telephone" placeholder="Nhập Số điện thoại...">
+						<span id="errTelephone" style="color:red"></span>
+					</div>
+					<div class="k_ttcanhan">
+						<label for="FullName"><a>*</a>Email:</label>
+						<input type="text" value="" id="Email" name="Email" placeholder="Nhập Email...">
+						<span id="errEmail" style="color:red"></span>
+					</div>
+					
+				<div class="tieude">
+					<h4>Mật Khẩu</h4>
+				</div>
+				<div class="ttcanhan">
+					<div class="k_ttcanhan">
+						<label for="FullName"><a>*</a>Mật khẩu:</label>
+						<input type="password" value="" id="Password" name="Password" placeholder="Nhập Mật khẩu...">
+						<span id="errPassword" style="color:red"></span>
+					</div>
+					<div class="k_ttcanhan">
+						<label for="FullName"><a>*</a>Nhập lại Mật khẩu:</label>
+						<input type="password" value="" id="RePassword" name="RePassword" placeholder="Nhập lại mật khẩu...">
+						<span id="errRePassword" style="color:red"></span>
+					</div>
+					<div id="submit"><input type="button" value="Đăng Ký" onclick="return Check()"></div>
+				</div>
+
+
+	</section>
+	<footer>
+		<div id="p_cuoi">
+			<div class="trai">
+				<div class="fashon">FASHON</div>
+				<div class="k_chu">
+					<li>Giới thiệu bookbuy.vn</li>
+					<li>Đặt hàng theo yêu cầu</li>
+					<li>BookBuy trên Facebook</li>
+					<li>iBookStop.vn</li>
+					<li>Bao plastic cho sách</li>
+				</div>
+			</div>
+			<div class="phai">
+				<div class="lienhe">LIÊN HỆ</div>
+				<div class="ds_lienhe">
+					<li>Địa chỉ: 147 Pasteur, Phường 6, Quận 3, TP.HCM</li>
+					<li>Điện thoại: (84-8) 3820 7153</li>
+					<li>Email: info@bookbuy.vn</li>
+					<li>Fax : (84-8) 3820 9525</li>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

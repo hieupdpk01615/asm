@@ -1,0 +1,586 @@
+body {
+	font-family: tahoma, myriad pro;
+	margin: 0px;
+	font-size: 16px;
+	color: #fff;
+}
+a{
+	text-decoration: none;
+}
+ul,ol{
+	margin: 0px;
+	padding: 0px;
+}
+#thongtin{
+	background-color: #f1f1f1;
+	width: 100%;
+	height: 425px;
+}
+#k_thongtin{
+	width: 1200px;
+	height: 350px;
+	margin: 0 auto;
+}
+#khunglogin{
+	background-color: #323a45;
+	height: 75px;
+	width: 100%;
+}
+#login{
+	width: 1200px;
+	height: 75px;
+	margin:0 auto;
+}
+
+.dn{
+	width: 130px;
+	height: 75px;
+	float: right;
+	text-align: center;
+}
+.dn a{
+	color: #fff;
+	line-height: 75px;
+	text-decoration: none;
+}
+.dn:hover {
+	background-color: #474e58;
+	width: 130px;
+	height: 75px;
+	border-radius: 50%;
+}
+#k_hotro{
+	width: 1200px;
+	height: 150px;
+	margin:0 auto;
+}
+.hotro{
+	width: 300px;
+	height: 150px;
+	float: left;
+}
+.logo{
+	margin-top: 30px;
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+.chu{
+	width: 250px;
+	height: 50px;
+	float: right;
+	margin-top: 40px;
+}
+.chu li{
+	text-indent: 20px;
+	list-style: none;
+}
+.a{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: black;
+}
+.b{
+	color: #9b9b9b;
+}
+/*------------------------------*/
+#k_modau{
+	width: 1200px;
+	height: 160px;
+	margin:0 auto;
+}
+.k_logo{
+	height: 160px;
+	width: 170px;
+	float: left;
+	padding-left: 30px;;
+}
+.timkiem{
+	height: 160px;
+	width: 700px;
+	float: left;
+}
+.k_soluongSP{
+	height: 160px;
+	width: 300px;
+	float: left;
+}
+.k_timkiem{
+	height: 90px;
+	width: 450px;
+	margin: auto;
+}
+.timkiem input:first-child {
+	height: 68px;
+	width: 355px;
+	float: left;
+	font-size: 20px;
+	padding-left: 10px;
+	border: none;
+}
+.timkiem input:last-child {
+	height: 68px;
+	width: 80px;
+	background-image: url("images/kinhlup.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-indent: -3000px;
+	background-color: #45d8bb;
+	border: none;
+	margin: 0;
+}
+#count{
+	width: 150px;
+	height: 79px;
+	font-size: 20px;
+	padding-top: 30px;
+	color:red;
+	text-align: center;
+	padding-left: 170px;
+	position: fixed;
+}
+.logo_soluong{
+	width: 79px;
+	height: 79px;
+	position: fixed;
+	right: 150px;
+}
+#menu_slider{
+	width: 1200px;
+	height: 696px;
+	margin: 0 auto;
+	margin-top: -40px;
+}
+#modau{
+	width: 1200px;
+	height: 896px;
+	margin: 0 auto;
+}
+#k_menu{
+	height: 86px;
+	width: 1200px;
+	background-color: #B45F04;
+	margin: 0 auto;	
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+#k_menu li{
+	height: 80px;
+	width: 150px;
+	list-style: none;	
+	display: inline-table;
+	line-height: 80px;
+}
+.ok{
+	background-color: #FF8000;
+	border-radius: 50%;
+}
+.c{
+	height: 80px;
+	width: 780px;
+}
+#k_menu ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	display: block;
+	text-align: center;
+}
+#k_menu li:hover {
+	background-color: #474e58;
+	width: 150px;
+	height: 86px;
+	border-radius: 50%;
+}
+#anhnen{
+	width: 1600px;
+	height: 766px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+/*----------------------------------*/
+section{
+	height: 2100px;
+	width: 1200px;
+	margin:0 auto;
+	margin-top: 100px;
+}
+#muctrai{
+	width: 280px;
+	min-height: 2100px;
+	float: left;
+}
+
+.danhmuc{
+	width: 280px;
+	min-height: 915px;
+}
+.k_danhmuc{
+	width: 280px;
+	height: 77px;
+	background-color: #f4ca49;
+	border-bottom: 10px solid #dbb542;
+	padding:auto;
+	border-radius: 5px;
+}
+.icon_danhmuc{
+	width: 39px;
+	height: 47px;
+	float: left;
+	padding-top: 30px;
+	padding-left: 20px;
+	border-right: 1px solid #fff;
+}
+.tendanhmuc{
+	width: 210px;
+	height: 77px;
+	float: left;
+	padding-left: 10px;
+	line-height: 85px;
+	font-size: 22px;
+}
+.k_loaiSP{
+	width: 280px;
+	height: 828px;
+}
+.loaiSP{
+	width: 280px;
+	height: 90px;
+	border-bottom: 2px solid #f1f1f1;
+}
+
+.loaiSP a{
+	line-height: 110px;
+	font-size: 20px;
+	padding-left: 40px;
+	text-decoration: none;
+	color: #777777;
+}
+.loaiSP a:hover {
+	color: red;
+}
+.k_banchay{
+	width: 280px;
+	min-height: 1185px;
+}
+.banchay{
+	width: 280px;
+	height: 70px;
+	border-bottom: 3px solid #FE9A2E;
+	color: #777777;
+	font-size: 23px;
+	line-height: 100px;
+}
+.k_SPbanchay{
+	width: 280px;
+	height: 116px;
+	margin-top: 36px;
+}
+.img_SPbanchay{
+	width: 130px;
+	height: 111px;
+	float: left;
+}
+.ten_SPbanchay{
+	width: 135px;
+	height: 96px;
+	float: left;
+	padding-left: 15px;
+	padding-top: 25px;
+	color: red;
+}
+.ten_SPbanchay a{
+	text-decoration: none;
+	color: #777777;
+}
+.ten_SPbanchay a:hover{
+	color: red;
+}
+#img{
+	margin-top: 70px;
+}
+/*------------------------------*/
+
+#mucphai{
+	width: 860px;
+	min-height: 2100px;
+	float: right;
+}
+.k_sanpham{
+	height: 465px;
+	width: 860px;
+}
+.tieude{
+	width: 860px;
+	height: 75px;
+	line-height: 80px;
+	border-bottom: 5px solid #FE9A2E;
+	color: #a0a0a0;
+}
+.sp{
+	width: 860px;
+	height: 350px;
+}
+.muc_sanpham{
+	width: 200px;
+	height: 330px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.muc_sanpham1{
+	width: 200px;
+	height: 330px;
+	float: left;
+	margin-top: 20px;
+}
+/* ------------------------------------------------ */
+.img_sp{
+	width: 200px;
+	height: 230px;
+	text-align: center;
+	margin: auto;
+	border: 1px solid #e5e5e5; 
+	overflow: hidden;
+	position: relative;
+}
+.hover {
+	display: block;
+	width: 100%;
+	height: auto;
+	height: 100%;
+	transition-duration: 0.5s;
+	/* Safari & Google Chrome */
+	-webkit-transition-duration: 0.5s; 
+	/* Mozilla Firefox */
+	-moz-transition-duration: 0.5s; 
+	/* Opera */
+	-o-transition-duration: 0.5s;
+	/* IE 9 */
+	-ms-transition-duration: 0.5s;
+}
+.img_sp img:hover {
+	transform: scale(1.2);
+	/* Safari & Google Chrome */
+	-webkit-transform: scale(1.2);
+	/* Mozilla Firefox */
+	-moz-transform: scale(1.2); 
+	/* Opera */
+	-o-transform: scale(1.2);
+	/* IE 9 */
+	-ms-transform: scale(1.2);
+	cursor: pointer; 
+	}
+.overlay {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;		
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+	height: 0;
+	transition: .5s ease;
+}
+
+.img_sp:hover .overlay {
+	bottom: 0;
+	height: 20%;
+	width: 100%;
+	top: 80%;
+}
+
+.text {
+	width: 200px;
+	height: 50px;
+	background-color: rgba(167, 190, 250, 0.336);	
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+.text a{
+	color:red;
+	text-align: center;
+	line-height: 50px;
+}
+/* ------------------------------------------------ */
+.ten_sp{
+	width: 200px;
+	height: 80px;
+	color: red;
+	text-align: center;
+	padding-top: 20px;
+}
+.ten_sp a{
+	color: #777777;
+	text-decoration: none;
+}
+.ten_sp a:hover {
+ color: red;
+}
+.ten_sp p{
+	color: red;
+}
+
+.k_xemthem{
+	width:120px;
+	height:38px;
+	margin:0 auto;
+	border: 1px solid black;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 40px;
+}
+.k_xemthem a{
+	text-decoration: none;
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+}
+.k_xemthem a:hover{
+	background-color: red;
+	color: white;
+	border-radius: 10px;
+}
+/*-----------------------------------*/
+footer{
+	width: 100%;
+	height: 210px;
+	margin: 0 auto;
+	background-color: #B45F04;
+}
+#p_cuoi{
+	width: 1200px;
+	height: 210px;
+	margin: 0 auto;
+
+}
+.trai{
+	width: 300px;
+	height: 210px;
+	float: left;
+}
+.phai{
+	width: 500px;
+	height: 210px;
+	float: right;
+}
+.k_chu{
+	line-height: 23px;
+	font-size: 15px;
+	padding-top: 10px;
+	list-style: none;
+}
+.fashon{
+	width: 85px;
+	height: 45px;
+	border-bottom: 5px solid #FE9A2E;
+	font-size: 20px;
+	color: #fff;
+	line-height: 45px;
+}
+.lienhe{
+	width: 85px;
+	height: 45px;
+	border-bottom: 5px solid #FE9A2E;
+	font-size: 20px;
+	color: #fff;
+	line-height: 45px;
+}
+.ds_lienhe{
+	margin-top: 10px;
+}
+.ds_lienhe li{
+	font-size: 15px;
+	padding-top: 5px;
+	list-style: none;
+	padding-top: 5px;
+}
+/* ---------------------- */
+
+
+.modal {
+	display: none; /* mặc định được ẩn đi */
+	position: fixed; /* vị trí được cố định */
+	z-index: 1; /* ưu tiên hiển thị đầu tiên */
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%; 
+	background-color: rgb(0,0,0); 
+	background-color: rgba(0,0,0,0.9); 
+}
+
+/* Phần nội hình ảnh của modal */
+.modal-content {
+	padding-top: 60px;
+	margin: auto;
+	display: block;
+	height: 550px;
+	width: 80%;
+	max-width: 700px;
+}
+
+/* phần caption của modal image */
+#caption {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	font-size: 30px;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+}
+
+
+/* Button đóng Modal */
+.close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+.product{
+	position: absolute;
+	z-index: 9999999999;
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	border-radius: 100%;
+	border: 2px solid red;
+	transition: all 1s ease;
+	animation: MyAnimation 1.7s;
+}
+@keyframes MyAnimation {
+	0%   {transform: scale(0.4)}
+	25%  {transform: scale(1)}
+	50%  {transform: scale(1)}
+	100% {transform: scale(0.4)}
+  }
+#k_giohang{
+	width: 500px;
+	min-height: 200px;
+	display: none;
+
+	background-color: white;
+	margin-left: -200px;
+}
+.logo_soluong:hover #k_giohang{
+	display: block;
+}

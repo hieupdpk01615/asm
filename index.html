@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Bookbuy.vn</title>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+	<link href="css/jquery.bxslider.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style_trangchu.css">
+
+	<script>
+		$(document).ready(function () {
+			$('.slider').bxSlider({
+				mode: 'horizontal',
+				speed: 500,
+				auto: true,
+			});
+		});
+	</script>
+</head>
+<body>
+	<header id="thongtin">
+		<div id="khunglogin">
+			<div id="login">
+				<div class="dn"><a href="#">Đăng nhập</a></div>
+				<div class="dn"><a href="Dangky.html">Đăng ký</a></div>
+			</div>
+		</div>
+		<div id="k_thongtin">
+			<div id="k_hotro">
+				<div class="hotro">
+					<div class="logo"><img src="icon/clock.png"></div>
+					<div class="chu">
+						<li class="a">Thời gian làm việc</li>
+						<li class="b">7.am - 11.pm</li>
+					</div>
+				</div>
+				<div class="hotro">
+					<div class="logo"><img src="icon/car.png"></div>
+					<div class="chu">
+						<li class="a" style="padding-left: 15px">Miễn phí vận chuyển</li>
+						<li class="b" style="padding-left: 15px">Đơn hàng trên 200k</li>
+					</div>
+				</div>
+				<div class="hotro">
+					<div class="logo"><img src="icon/money.png"></div>
+					<div class="chu">
+						<li class="a">Giá cả phải chăng</li>
+						<li class="b">Mua bán tiết kiệm</li>
+					</div>
+				</div>
+				<div class="hotro">
+					<div class="logo"><img src="icon/telephone.png"></div>
+					<div class="chu">
+						<li class="a">(84-8) 3820 7153</li>
+						<li class="b">Hỗ trợ khách hàng trực tuyến</li>
+					</div>
+				</div>
+			</div>
+			<!-- ------------------------------------------------------------ -->
+			<div id="k_modau">
+				<div class="k_logo"><a href="#"><img src="icon/bieutuong.png"></a></div>
+				<div class="timkiem">
+					<div class="k_timkiem">
+						<input type="text" placeholder="Tìm kiếm sản phẩm...">
+						<input type="submit" value="Tim">
+					</div>
+				</div>
+				<div class="k_soluongSP">
+					<a href="GioHang.html" id="shop">
+						<div id="count" data-count="0">0</div>
+						<div class="logo_soluong"><img src="icon/sanpham.png" alt="">
+							<div id="k_giohang">
+								<a href="#">
+									<h2 >Giỏ hàng</h2>
+									<table id="giohang"></table>
+									<h2>Tổng tiền là: <span id="tien" style="color: red">0 </span></h2>
+								</a>
+							</div>
+						</div>
+
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- --------------------------------------------------------------------------------- -->
+	<header id="menu_slider">
+		<div id="modau">
+			<div id="k_menu">
+				<div class="c">
+					<ul>
+						<li class="ok"><a href="index.html">Trang chủ</a></li>
+						<li><a href="gioithieu.html">Giới thiệu</a></li>
+						<li><a href="sanpham.html">Sản phẩm</a></li>
+						<li><a href="#">Hướng dẫn</a></li>
+						<li><a href="lienhe.html">Liên hệ</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="slider">
+				<div><img src="img/anhnen.jpg" style="height: 566px;width: 1200px"></div>
+				<div><img src="img/anhnen1.png" style="height: 566px;width: 1200px"></div>
+				<div><img src="img/anhnen2.jpg" style="height: 566px;width: 1200px"></div>
+			</div>
+		</div>
+	</header>
+	<!-- --------------------------------------------------------- -->
+	<section>
+
+		<div id="muctrai">
+			<div class="danhmuc">
+				<div class="k_danhmuc">
+					<div class="icon_danhmuc"><img src="icon/danhmuc.png"></div>
+					<div class="tendanhmuc">DANH MỤC</div>
+				</div>
+				<div class="k_loaiSP">
+					<div class="loaiSP"><a href="https://bookbuy.vn/sach/sach-teen">SÁCH TEEN</a></div>
+					<div class="loaiSP"><a href="https://bookbuy.vn/sach/sach-truyen-thieu-nhi">SÁCH-TRUYỆN THIẾU NHI</a></div>
+					<div class="loaiSP"><a href="https://bookbuy.vn/sach/sach-bach-khoa-tri-thuc">BÁCH KHOA TRI THỨC</a></div>
+					<div class="loaiSP"><a href="https://bookbuy.vn/sach/sach-ky-nang-song">SÁCH KỸ NĂNG SỐNG</a></div>
+					<div class="loaiSP"><a href="https://bookbuy.vn/sach-mua-yeu-valentine">TIỂU THUYẾT LÃNG MẠN</a></div>
+					<div class="loaiSP"><a href="https://bookbuy.vn/sach/sach-kinh-te">KINH TẾ</a></div>
+					<div class="loaiSP"><a href="https://bookbuy.vn/sach-cho-phai-dep">SÁCH CHO PHÁI ĐẸP</a></div>
+					<div class="loaiSP"><a href="https://bookbuy.vn/sach/sach-nuoi-day-tre">SÁCH NUÔI DẠY TRẺ</a></div>
+					<div class="loaiSP"><a href="https://bookbuy.vn/sach/sach-y-hoc-suc-khoe">Y HỌC - SỨC KHỎE</a></div>
+				</div>
+			</div>
+			<div class="k_banchay">
+				<div class="banchay">BÁN CHẠY</div>
+				<div class="k_SPbanchay">
+					<div class="img_SPbanchay"><a href="#"><img src="img/banchay/anh5.jpg"></a></div>
+					<div class="ten_SPbanchay">
+						<a href="#">Cổ Tích Việt Nam Cho Bé : Cây Khế</a>
+						<p>20.000 &#8363;</p>
+					</div>
+				</div>
+				<div class="k_SPbanchay">
+					<div class="img_SPbanchay"><a href="#"><img src="img/banchay/anh6.jpg"></a></div>
+					<div class="ten_SPbanchay">
+						<a href="#">Cổ Tích Việt Nam Cho Bé: Sự Tích Con Dã Tràng</a>
+						<p>30.000 &#8363;</p>
+					</div>
+				</div>
+				<div class="k_SPbanchay">
+					<div class="img_SPbanchay"><a href="#"><img src="img/banchay/anh15.jpg"></a></div>
+					<div class="ten_SPbanchay">
+						<a href="#">Độc Lạ, Phi Thường - Động Vật Có Vú Dưới Biển</a>
+						<p>50.000 &#8363;</p>
+					</div>
+				</div>
+				<div id="img">
+					<img src="img/banchay/anh9.jpg" width="300px" height="370px">
+				</div>
+			</div>
+		</div>
+		<!-- ----------------------------------------------------------- -->
+		<div id="mucphai">
+			<div class="k_sanpham">
+				<div class="tieude">
+					<h3>MỚI NHẤT</h3>
+				</div>
+				<div class="sp">
+					<div class="muc_sanpham">
+						<div class="img_sp">
+							<a href="SanPham/AoThunNam.html"><img id="myImg" src="img/sanpham/anh1.jpg"
+									class="hover"></a>
+							<div class="overlay">
+								<div class="text">
+									<a href="javascript:void(0);" class="buy" role="button" onclick="muahang(0)">
+										<img src="icon/giohang.png" alt="" width="23px" height="23px">
+										Thêm vào giỏ hàng
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="ten_sp">
+							<a href="#">Nhà Trọ Nhất Khắc - Tập 13</a>
+							<p>20.000 &#8363;</p>
+						</div>
+					</div>
+					<div class="muc_sanpham">
+						<div class="img_sp">
+							<a href="#"><img id="myImg" src="img/sanpham/anh2.jpg"
+									class="hover"></a>
+							<div class="overlay">
+								<div class="text">
+									<a href="javascript:void(0);" role="button" class="buy" onclick="muahang(1)">
+										<img src="icon/giohang.png" alt="" width="23px" height="23px">
+										Thêm vào giỏ hàng
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="ten_sp">
+							<a href="SanPham/Giay_MGHS13.html">Đại Bàng- Tập 14</a>
+							<p>21.000 &#8363;</p>
+						</div>
+					</div>
+					<div class="muc_sanpham">
+						<div class="img_sp">
+							<a href="#"><img src="img/sanpham/anh3.jpg" class="hover"></a>
+							<div class="overlay">
+								<div class="text">
+									<a href="javascript:void(0);" class="buy" role="button" onclick="muahang(2)">
+										<img src="icon/giohang.png" alt="" width="23px" height="23px">
+										Thêm vào giỏ hàng
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="ten_sp">
+							<a href="#">Nhà Trọ Nhất Khắc - Tập 12</a>
+							<p>20.000 &#8363;</p>
+						</div>
+					</div>
+					<div class="muc_sanpham1">
+						<div class="img_sp">
+							<a href="#"><img src="img/sanpham/anh4.jpg" class="hover"></a>
+							<div class="overlay">
+								<div class="text">
+									<a href="javascript:void(0);" class="buy" role="button" onclick="muahang(3)">
+										<img src="icon/giohang.png" alt="" width="23px" height="23px">
+										Thêm vào giỏ hàng
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="ten_sp">
+							<a href="#">Quân Đoàn Ếch - Tập 14</a>
+							<p>30.000 &#8363;</p>
+						</div>
+					</div>
+
+				</div>
+				<div class="k_xemthem">
+					<a href="#">XEM THÊM</a>
+				</div>
+			</div>
+			<!-- ----------------------------------------------------------- -->
+			<div class="k_sanpham">
+				<div class="tieude">
+					<h3>SÁCH - TRUYỆN THIẾU NHI</h3>
+				</div>
+				<div class="sp">
+					<div class="muc_sanpham">
+						<div class="img_sp">
+							<a href="#"><img src="img/sanpham/anh5.jpg" class="hover"></a>
+							<div class="overlay">
+								<div class="text">
+									<a href="javascript:void(0);" class="buy" role="button" onclick="muahang(4)">
+										<img src="icon/giohang.png" alt="" width="23px" height="23px">
+										Thêm vào giỏ hàng
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="ten_sp">
+							<a href="#">Cổ Tích Việt Nam Cho Bé : Cây Khế</a>
+							<p>20.000 &#8363;</p>
+						</div>
+					</div>
+					<div class="muc_sanpham">
+						<div class="img_sp">
+							<a href="#"><img src="img/sanpham/anh6.jpg" class="hover"></a>
+							<div class="overlay">
+								<div class="text">
+									<a href="javascript:void(0);" class="buy" role="button" onclick="muahang(5)">
+										<img src="icon/giohang.png" alt="" width="23px" height="23px">
+										Thêm vào giỏ hàng
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="ten_sp">
+							<a href="#">Cổ Tích Việt Nam Cho Bé: Sự Tích Con Dã Tràng</a>
+							<p>30.000 &#8363;</p>
+						</div>
+					</div>
+					<div class="muc_sanpham">
+						<div class="img_sp">
+							<a href="#"><img src="img/sanpham/anh7.jpg" class="hover"></a>
+							<div class="overlay">
+								<div class="text">
+									<a href="javascript:void(0);" class="buy" role="button" onclick="muahang(6)">
+										<img src="icon/giohang.png" alt="" width="23px" height="23px">
+										Thêm vào giỏ hàng
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="ten_sp">
+							<a href="#">Sinh Tồn Trong Mọi Hoàn Cảnh</a>
+							<p>20.000 &#8363;</p>
+						</div>
+					</div>
+					<div class="muc_sanpham1">
+						<div class="img_sp">
+							<a href="#"><img src="img/sanpham/anh8.jpg" class="hover"></a>
+							<div class="overlay">
+								<div class="text">
+									<a href="javascript:void(0);" class="buy" role="button" onclick="muahang(7)">
+										<img src="icon/giohang.png" alt="" width="23px" height="23px">
+										Thêm vào giỏ hàng
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="ten_sp">
+							<a href="#">Đôi Bạn Tinh Nghịch Jip Và Janneke - Tập 3</a>
+							<p>80.000 &#8363;</p>
+						</div>
+					</div>
+
+				</div>
+				<div class="k_xemthem">
+					<a href="#">XEM THÊM</a>
+				</div>
+			</div>
+			<!-- ----------------------------------------------------------- -->
+			<div class="k_sanpham">
+				<div class="tieude">
+					<h3>TRUYỆN TEEN</h3>
+				</div>
+				<div class="sp">
+					<div class="muc_sanpham">
+						<div class="img_sp">
+							<a href="#"><img src="img/sanpham/anh9.jpg" class="hover"></a>
+							<div class="overlay">
+								<div class="text">
+									<a href="javascript:void(0);" class="buy" role="button" onclick="muahang(8)">
+										<img src="icon/giohang.png" alt="" width="23px" height="23px">
+										Thêm vào giỏ hàng
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="ten_sp">
+							<a href="#">Sống Sót Ở Trường Trung Học</a>
+							<p>21.000 &#8363;</p>
+						</div>
+					</div>
+					<div class="muc_sanpham">
+						<div class="img_sp">
+							<a href="#"><img src="img/sanpham/anh10.jpg" class="hover"></a>
+							<div class="overlay">
+								<div class="text">
+									<a href="javascript:void(0);" class="buy" role="button" onclick="muahang(9)">
+										<img src="icon/giohang.png" alt="" width="23px" height="23px">
+										Thêm vào giỏ hàng
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="ten_sp">
+							<a href="#">Cúc Dại Và Tia Nắng</a>
+							<p>40.000 &#8363;</p>
+						</div>
+					</div>
+					<div class="muc_sanpham">
+						<div class="img_sp">
+							<a href="#"><img src="img/sanpham/anh11.jpg" class="hover"></a>
+							<div class="overlay">
+								<div class="text">
+									<a href="javascript:void(0);" class="buy" role="button" onclick="muahang(10)">
+										<img src="icon/giohang.png" alt="" width="23px" height="23px">
+										Thêm vào giỏ hàng
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="ten_sp">
+							<a href="#">Chúng Mình Sẽ Lại Bình Yên</a>
+							<p>20.000 &#8363;</p>
+						</div>
+					</div>
+					<div class="muc_sanpham1">
+						<div class="img_sp">
+							<a href="#"><img src="img/sanpham/anh12.jpg" class="hover"></a>
+							<div class="overlay">
+								<div class="text">
+									<a href="javascript:void(0);" class="buy" role="button" onclick="muahang(11)">
+										<img src="icon/giohang.png" alt="" width="23px" height="23px">
+										Thêm vào giỏ hàng
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="ten_sp">
+							<a href="#">Tuổi Dấu Yêu</a>
+							<p>30.000 &#8363;</p>
+						</div>
+					</div>
+				</div>
+				<div class="k_xemthem">
+					<a href="#">XEM THÊM</a>
+				</div>
+			</div>
+			<!-- ----------------------------------------------------------- -->
+			<div class="k_sanpham">
+				<div class="tieude">
+					<h3>BÁCH KHOA TRI THỨC</h3>
+				</div>
+				<div class="sp">
+					<div class="muc_sanpham">
+						<div class="img_sp">
+							<a href="#"><img src="img/sanpham/anh13.jpg" class="hover"></a>
+							<div class="overlay">
+								<div class="text">
+									<a href="javascript:void(0);" class="buy" role="button" onclick="muahang(12)">
+										<img src="icon/giohang.png" alt="" width="23px" height="23px">
+										Thêm vào giỏ hàng
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="ten_sp">
+							<a href="#">Sự Hình Thành Tinh Thần Khoa Học</a>
+							<p>210.000 &#8363;</p>
+						</div>
+					</div>
+					<div class="muc_sanpham">
+						<div class="img_sp">
+							<a href="#"><img src="img/sanpham/anh14.jpg" class="hover"></a>
+							<div class="overlay">
+								<div class="text">
+									<a href="javascript:void(0);" class="buy" role="button" onclick="muahang(13)">
+										<img src="icon/giohang.png" alt="" width="23px" height="23px">
+										Thêm vào giỏ hàng
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="ten_sp">
+							<a href="#">Độc Lạ, Phi Thường - Bên Bờ Tuyệt Chủng</a>
+							<p>50.000 &#8363;</p>
+						</div>
+					</div>
+					<div class="muc_sanpham">
+						<div class="img_sp">
+							<a href="#"><img src="img/sanpham/anh15.jpg" class="hover"></a>
+							<div class="overlay">
+								<div class="text">
+									<a href="javascript:void(0);" class="buy" role="button" onclick="muahang(14)">
+										<img src="icon/giohang.png" alt="" width="23px" height="23px">
+										Thêm vào giỏ hàng
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="ten_sp">
+							<a href="#">Độc Lạ, Phi Thường - Động Vật Có Vú Dưới Biển</a>
+							<p>50.000 &#8363;</p>
+						</div>
+					</div>
+					<div class="muc_sanpham1">
+						<div class="img_sp">
+							<a href="#"><img src="img/sanpham/anh16.jpg" class="hover"></a>
+							<div class="overlay">
+								<div class="text">
+									<a href="javascript:void(0);" class="buy" role="button" onclick="muahang(15)">
+										<img src="icon/giohang.png" alt="" width="23px" height="23px">
+										Thêm vào giỏ hàng
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="ten_sp">
+							<a href="#">Độc Lạ, Phi Thường - Giấc Ngủ Muôn Hình</a>
+							<p>50.000 &#8363;</p>
+						</div>
+					</div>
+				</div>
+				<div class="k_xemthem">
+					<a href="#">XEM THÊM</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ----------------------------------------------------------- -->
+	<footer>
+		<div id="p_cuoi">
+			<div class="trai">
+				<div class="fashon">BOOKBUY</div>
+				<div class="k_chu">
+					<li>Giới thiệu bookbuy.vn</li>
+					<li>Đặt hàng theo yêu cầu</li>
+					<li>BookBuy trên Facebook</li>
+					<li>iBookStop.vn</li>
+					<li>Bao plastic cho sách</li>
+				</div>
+			</div>
+			<div class="phai">
+				<div class="lienhe">LIÊN HỆ</div>
+				<div class="ds_lienhe">
+					<li>Địa chỉ: 147 Pasteur, Phường 6, Quận 3, TP.HCM</li>
+					<li>Điện thoại: (84-8) 3820 7153</li>
+					<li>Email: info@bookbuy.vn</li>
+					<li>Fax : (84-8) 3820 9525</li>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script>
+		$(document).on('click', '.buy', function (e) {
+			e.preventDefault();
+			if ($(this).hasClass('disable')) {
+				return false;
+			}
+			$(document).find('.buy').addClass('disable');
+			var self = $(this);
+			var parent = $(this).parents('.img_sp');
+			var src = parent.find('img').attr('src');
+			var shop = $(document).find('#shop');
+			var fly = $(document).find('.logo_soluong');
+			var partop = parent.offset().top;
+			var parleft = parent.offset().left;
+			$('<img />', {
+				class: 'product',
+				src: src,
+			}).appendTo('body').css({
+				'top': partop,
+				'left': parseInt(parleft) + parseInt(parent.width()) - 50
+			});
+			setTimeout(function () {
+				$(document).find('.product').css({
+					'top': fly.offset().top,
+					'left': fly.offset().left
+				});
+				setTimeout(function () {
+					$(document).find('.product').remove();
+					var item = parseInt(shop.find('#count').data('count')) + 1;
+					shop.find('#count').text(item).data('count', item);
+					$(document).find('.buy').removeClass('disable');
+				}, 1000)
+			}, 500);
+			// $('html,body').animate({scrollTop: 0}, 1500);
+
+		});
+		var giohang = [];
+		var dssanpham = [
+			{ tensp: 'Nhà Trọ Nhất Khắc - Tập 13', gia: 20000 },
+			{ tensp: 'Đại Bàng- Tập 14', gia: 21000 },
+			{ tensp: 'Nhà Trọ Nhất Khắc - Tập 12', gia: 20000 },
+			{ tensp: 'Quân Đoàn Ếch - Tập 14', gia: 30000 },
+			{ tensp: 'Cổ Tích Việt Nam Cho Bé : Cây Khế', gia: 20000 },
+			{ tensp: 'Cổ Tích Việt Nam Cho Bé: Sự Tích Con Dã Tràng', gia: 30000 },
+			{ tensp: 'Sinh Tồn Trong Mọi Hoàn Cảnh', gia: 20000 },
+			{ tensp: 'Đôi Bạn Tinh Nghịch Jip Và Janneke - Tập 3', gia: 80000 },
+			{ tensp: 'Sống Sót Ở Trường Trung Học', gia: 21000 },
+			{ tensp: 'Cúc Dại Và Tia Nắng', gia: 40000 },
+			{ tensp: 'Chúng Mình Sẽ Lại Bình Yên', gia: 20000 },
+			{ tensp: 'Tuổi Dấu Yêu', gia: 30000 },
+			{ tensp: 'Sự Hình Thành Tinh Thần Khoa Học', gia: 210000 },
+			{ tensp: 'Độc Lạ, Phi Thường - Bên Bờ Tuyệt Chủng', gia: 50000 },
+			{ tensp: 'Độc Lạ, Phi Thường - Động Vật Có Vú Dưới Biển', gia: 50000 },
+			{ tensp: 'Độc Lạ, Phi Thường - Giấc Ngủ Muôn Hình', gia: 50000 },
+		];
+		var tong = 0;
+		function muahang(index) {
+			var dlgio = document.getElementById("giohang");
+					var soluong = document.getElementById("giohang").rows.length;
+					var chuyendl = dlgio.insertRow(soluong);
+					chuyendl.setAttribute("onclick", "removeIt(this," + dssanpham[index].gia + ")");
+					var cell1 = chuyendl.insertCell(0);
+					var cell2 = chuyendl.insertCell(1);
+					cell1.innerHTML = dssanpham[index].tensp;
+					cell2.innerHTML = dssanpham[index].gia;
+					tong = tong + dssanpham[index].gia;
+					document.getElementById("tien").innerHTML = tong;
+			giohang.push(dssanpham[index]);
+			localStorage.setItem('mygiohang', JSON.stringify(giohang));
+		}
+		var ok = [];
+		var ok = JSON.parse(localStorage.getItem('mygiohang'));
+
+	</script>
+</body>
+
+</html>
